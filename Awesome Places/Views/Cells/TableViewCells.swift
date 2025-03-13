@@ -232,7 +232,6 @@ class TourDetailsCell: UITableViewCell {
     
     private func setupTextFields() {
         [nameTextField, countryTextField].forEach { textField in
-            textField.keyboardType = .default
             textField.applyAnimatedBorder(borderColor: .systemRed)
         }
     }
